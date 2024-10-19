@@ -1,0 +1,164 @@
+# Coverage.py
+htmlcov/
+reports/
+
+# cruft
+*.rej
+
+# Data
+*.csv*
+*.dat*
+*.pickle*
+*.xls*
+*.zip*
+data/
+
+# direnv
+.envrc
+
+# dotenv
+.env
+
+# Hypothesis
+.hypothesis/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+notebooks/
+
+# macOS
+.DS_Store
+
+# mypy
+.dmypy.json
+.mypy_cache/
+
+# Node.js
+node_modules/
+
+# Poetry
+.venv/
+dist/
+
+# PyCharm
+.idea/
+
+# pyenv
+.python-version
+
+# pytest
+.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cdo]
+
+# Ruff
+.ruff_cache/
+
+# Terraform
+.terraform/
+
+# VS Code
+.vscode/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# Poetry related
+poetry.lock
+poetry.toml
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+env.bak/
+.venv.bak/
+
+# Pytest and coverage reports
+.coverage
+.coverage.*
+.cache
+*.cover
+.hypothesis/
+.pytest_cache/
+reports/
+htmlcov/
+
+# Lancedb and SQLite databases
+*.db
+*.lance
+vector/data/sample-lancedb/
+
+# Logs and other artifacts
+*.log
+*.log.*
+logs/
+*.out
+*.err
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Docker files
+docker-compose.override.yml
+docker-compose*.yml
+.env.docker
+
+# Ignore Docker volumes and data
+docker_data/
+volumes/
+*/path-to-my-db.db
+
+# Ignore Python specific packaging
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore specific data files and test reports
+src/pydantic_all_in_one/graph/path-to-my-db.db
+src/pydantic_all_in_one/vector/data/
+tests/reports/
+tests/__pycache__/
+
+# Ignore specific generated files
+*.manifest
+*.txn
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore generated documentation
+docs/_build/
+site/
+
+# Ignore temporary files and system files
+*.DS_Store
+Thumbs.db

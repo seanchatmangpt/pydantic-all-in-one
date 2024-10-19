@@ -1,0 +1,29 @@
+{
+  "template": "https://github.com/superlinear-ai/poetry-cookiecutter",
+  "commit": "4ee45cc9ba5a0ef51d48b8c637ae066305dc6a06",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_type": "package",
+      "project_name": "pydantic-all-in-one",
+      "project_description": "AAll the pydantic projects I want to use together.",
+      "project_url": "https://github.com/seanchatmangpt/pydantic-all-in-one",
+      "author_name": "Sean Chatman",
+      "author_email": "info@chatmangpt.com",
+      "python_version": "3.12",
+      "development_environment": "simple",
+      "with_conventional_commits": "0",
+      "with_fastapi_api": "1",
+      "with_typer_cli": "1",
+      "continuous_integration": "GitHub",
+      "private_package_repository_name": "",
+      "private_package_repository_url": "",
+      "__docker_image": "python:$PYTHON_VERSION-slim",
+      "__docstring_style": "NumPy",
+      "__project_name_kebab_case": "pydantic-all-in-one",
+      "__project_name_snake_case": "pydantic_all_in_one",
+      "_template": "https://github.com/superlinear-ai/poetry-cookiecutter"
+    }
+  },
+  "directory": null
+}

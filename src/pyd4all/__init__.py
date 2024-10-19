@@ -1,0 +1,1 @@
+"""pydantic-all-in-one."""
