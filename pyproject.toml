@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]  # https://python-poetry.org/docs/pyproject/
 name = "pyd4all"
-version = "2024.10.18"
+version = "2024.10.29"
 description = "AAll the pydantic projects I want to use together."
 authors = ["Sean Chatman <info@chatmangpt.com>"]
 readme = "README.md"
@@ -30,6 +30,10 @@ gqlalchemy = "^1.6.0"
 sqlmodel = "^0.0.22"
 aioclock = "^0.3.0"
 dslmodel = "^2024.10.18"
+pydantic-extra-types = "^2.9.0"
+fastui = "^0.7.0"
+logfire = "^1.2.0"
+watchdog = "^5.0.3"
 
 [tool.poetry.group.test.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 coverage = { extras = ["toml"], version = ">=7.4.4" }

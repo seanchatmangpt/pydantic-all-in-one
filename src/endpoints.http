@@ -1,0 +1,28 @@
+### Test root route
+GET http://127.0.0.1:8000/hello/world
+Accept: application/json
+
+### Test custom greeting route with default parameter
+GET http://127.0.0.1:8000/hello/world/custom
+Accept: application/json
+
+### Test custom greeting route with a specific name
+GET http://127.0.0.1:8000/hello/world/custom?name=Alice
+Accept: application/json
+
+### Test dynamic route with a parameter (replace `{user_id}` with an actual value if applicable)
+GET http://127.0.0.1:8000/api/v1/users/123
+Accept: application/json
+
+### Test POST /api/v1/users to create a new user
+POST http://127.0.0.1:8000/api/v1/users
+Content-Type: application/json
+
+{
+  "name": "Alice Smith",
+  "email": "alice.smith@example.com"
+}
+
+### Test GET /api/v1/users/{user_id} for a specific user
+GET http://127.0.0.1:8000/api/v1/users/1
+Accept: application/json

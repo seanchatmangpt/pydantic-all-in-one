@@ -1,0 +1,18 @@
+# watcher_config.yaml
+
+# Directory to load FastAPI routes from
+fastapi_folder: "/Users/sac/dev/pydantic-all-in-one/src/pyd4all/http"
+
+# Directory to load FastStream event handlers from
+faststream_folder: "streams"
+
+# Directory to load Typer CLI commands from
+typer_folder: "cli"
+
+# Additional configurations (optional)
+
+# Set to true to enable the filesystem watcher for real-time reloading
+enable_watcher: true
+
+# Delay in seconds between checks for changes in the directory
+watcher_polling_interval: 1.0
